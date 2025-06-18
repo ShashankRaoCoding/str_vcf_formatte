@@ -1,4 +1,4 @@
-# str_vcf_formatte
+# str_vcf_formatter
 
 This Go Script works to format the gathered_samples/vcfs to unsortedVCFs. These must then be sorted using BCFtools-1.22 (otherwise PLINK may throw an error that the entries are not in ascending order of chr:pos). The outputs from this can then be converted to other formats via PLINK. 
 
@@ -9,7 +9,7 @@ call the binary with the argument `"path_to_folder"` where this folder contains 
 
 The script can be compiled for other platforms, as well. To do this, please look at the Go cross-compilation documentation. 
 
-A DNA Nexus compatible version is supplied with this (`vcf-linux`) (coming soon) 
+A DNA Nexus compatible version is supplied with this (`vcf-linux`) 
 
 > [!Note: ] 
 > This script does not merge calls 
